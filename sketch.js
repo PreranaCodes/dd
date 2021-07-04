@@ -16,7 +16,7 @@ function setup(){
  
     //bb1=createSprite(200,200,400,400)
    // bb1.addImage("sd",bg1img)
-  bb1.scale=0.5
+ // bb1.scale=0.5
   five= createSprite(50,70,10,10);
   five.addImage("f3",fiveImg)
   five.scale=0.05
