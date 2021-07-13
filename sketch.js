@@ -10,7 +10,7 @@ cupcake=loadImage("cupcake.png")
 dessert=loadImage("dessert.png")
 donut=loadImage("donut.png")
 so=loadSound("s1.mp3")
-    a=loadImage("aar.jpeg");
+   // a=loadImage("aar.jpeg");
 }
 function setup(){
     createCanvas(400,400);
