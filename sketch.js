@@ -1,5 +1,5 @@
 var ball,bg1img,b1img,b2img,fiveimg,cupcake,dessert,donut;
-var bg1,b2,b1,five,so;
+var bg1,b2,b1,five,so,a1;
 function preload()
 {
 bg1img=loadImage("cake1.PNG")
@@ -10,6 +10,7 @@ cupcake=loadImage("cupcake.png")
 dessert=loadImage("dessert.png")
 donut=loadImage("donut.png")
 so=loadSound("s1.mp3")
+    a=loadImage("aar.jpeg");
 }
 function setup(){
     createCanvas(400,400);
@@ -20,6 +21,9 @@ function setup(){
   five= createSprite(50,70,10,10);
   five.addImage("f3",fiveImg)
   five.scale=0.05
+    
+    a1=createSprite(200,100,30,30)
+    a1.addImage("aa",a);
 }
 
 function draw(){
