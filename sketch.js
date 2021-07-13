@@ -24,7 +24,7 @@ function setup(){
     
     a1=createSprite(200,100,30,30)
     a1.addImage("aa",a);
-    a1.scale=0.05
+    a1.scale=0.001
 }
 
 function draw(){
